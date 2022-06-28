@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>BootStrap-v5</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark py-3 navbar-dark fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"
+          ><img class="logo-img" src="./assets/doo.jpg.jpg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link lead">How Can i Help You Today</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link lead">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Contact" class="nav-link lead">Contact Me </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- showcase -->
+    <section
+      class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div
+          class="d-sm-flex justify-content-between align-items-center flex-1"
+        >
+          <div>
+            <h1>I Am a Web <span class="text-warning">Developer </span></h1>
+            <p class="lead my-5">
+              I am a web developer with a vast array of knowledge in many
+              different front end and back end languages, responsive frameworks,
+              databases, and best code practices. My objective is simply to be
+              the best web developer that I can be and to contribute to the
+              technology industry all that I know and can do.
+            </p>
+            <button class="btn btn-primary btn-lg">More Info</button>
+          </div>
+          <img
+            src="./assets/DSC_7503.JPG"
+            alt="photo of Doo"
+            class="img-fluid w-50 d-none d-sm-block"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-secondary text-dark p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0 text-white">Sign Up For Our Newsletter</h3>
+          <div class="input-group news-input">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Your Email"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button class="btn btn-primary" type="button" id="button-addon2">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- card -->
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title">React</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Culpa accusantium vel nulla dicta? Maiores, culpa.
+                </p>
+                <a href="#" class="btn btn-secondary">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-app"></i>
+                </div>
+                <h3 class="card-title">Material UI</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Culpa accusantium vel nulla dicta? Maiores, culpa.
+                </p>
+                <a href="#" class="btn btn-light">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-bootstrap"></i>
+                </div>
+                <h3 class="card-title">BootStrap</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Culpa accusantium vel nulla dicta? Maiores, culpa.
+                </p>
+                <a href="#" class="btn btn-secondary">Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- highlight -->
+
+    <section id="highlights" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="./assets/DSC_7514.JPG" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn the Fundamentals</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+              a tenetur eveniet reiciendis ipsam corrupti dignissimos at
+              consequuntur, dolores dolor modi iste reprehenderit distinctio
+              officia laborum soluta animi architecto amet.
+            </p>
+            <a href="#" class="btn btn-primary mt-3">
+              <i class="bi bi-chevron-right"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="highlights" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>Learn the Fundamentals</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+              a tenetur eveniet reiciendis ipsam corrupti dignissimos at
+              consequuntur, dolores dolor modi iste reprehenderit distinctio
+              officia laborum soluta animi architecto amet.
+            </p>
+            <a href="#" class="btn btn-secondary mt-3">
+              <i class="bi bi-chevron-right"></i>Read More
+            </a>
+          </div>
+          <div class="col-md">
+            <img
+              src="./assets/Chris Farm 20171111_154810.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section id="question" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Why should we hire you as Web Developer?
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                You should hire me for this position because of my proven
+                ability to build efficient front-end user interfaces in line
+                with modern best practices. I am experienced in using
+                JavaScript, as well as the React framework, Tailwind CSS,
+                Material UI to develop front-end applications.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Do you have any actual work experience?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                i have actually built several projects as a Freelancer as well
+                an intern in a start up company.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                What skill is best for a Web Developer?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Having web development language skills will help candidates
+                stand out from the rest. Prominent web developer skills include
+                understanding HTML, design skills, and analytical knowledge.
+                However, a skilled web developer works on numerous other facets
+                of projects as well.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                How I contact you?
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">see the footer for more details</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+
+    <section id="projects" class="p-5 bg-secondary">
+      <div class="container">
+        <h2 class="text-center text-light">My Projects</h2>
+        <p class="lead text-center text-light mb-5">
+          These projects are built using different frameworks and tools.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1511184117514-74b2b39697a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFiaWVzJTIwcG9ydHJpYXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                  class="img-fluid mb-3 object-fit-cover"
+                />
+                <h3 class="card-title mb-3">Roi Ben</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ab
+                  dolorem quia modi perferendis optio?
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1511184117514-74b2b39697a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFiaWVzJTIwcG9ydHJpYXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                  class="img-fluid mb-3 object-fit-cover"
+                />
+                <h3 class="card-title mb-3">Roi Ben</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ab
+                  dolorem quia modi perferendis optio?
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1511184117514-74b2b39697a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFiaWVzJTIwcG9ydHJpYXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                  class="img-fluid mb-3 object-fit-cover"
+                />
+                <h3 class="card-title mb-3">Roi Ben</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ab
+                  dolorem quia modi perferendis optio?
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://images.unsplash.com/photo-1511184117514-74b2b39697a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFiaWVzJTIwcG9ydHJpYXRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                  class="img-fluid mb-3 object-fit-cover"
+                />
+                <h3 class="card-title mb-3">Roi Ben</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ab
+                  dolorem quia modi perferendis optio?
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contacts and map -->
+
+    <section class="p-5" id="contact">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush l">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> 50 main street Dubai
+                Marina
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Mobile Number:</span> 0567038842
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Available:</span> 6AM-10PM Monday-
+                Saturday
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email:</span
+                ><a
+                  href="https://mail.google.com/mail/doochukbeni"
+                  target="_blank"
+                  >Doochukbeni@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="p-5 bg-dark text-white position-relative">
+      <div class="container">
+        <div>
+          <a href="https://twitter.com/doochukbeni11" target="_blank"
+            ><i class="bi bi-twitter text-primary mx-1"></i
+          ></a>
+          <a href="#"><i class="bi bi-facebook text-primary mx-1"></i></a>
+          <a href="#"><i class="bi bi-instagram text-primary mx-1"></i></a>
+          <a
+            href="https://github.com/Doochukbeni/reactmuipractice"
+            target="_blank"
+            ><i class="bi bi-github text-primary mx-1"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/benjamin-izummuo-83589b15b/"
+            target="_blank"
+            ><i class="bi bi-linkedin text-primary mx-1"></i
+          ></a>
+        </div>
+      </div>
+      <p class="lead text-align-center text-center">
+        copyright &copy; 2022 Doochukbeni bootstrap-v5
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
